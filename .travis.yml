@@ -5,7 +5,7 @@ php:
   - 5.5
   - hhvm
 
-sudo:false
+sudo: false
 
 matrix:
   fast_finish: true
