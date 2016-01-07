@@ -17,10 +17,10 @@ use Cache\IntegrationTests\TaggableCachePoolTest;
 class IntegrationTagTest extends TaggableCachePoolTest
 {
     protected $skippedTests = [
-        'testBasicUsage'=>'Void adapter does not save,',
-        'testGetItems'=>'Void adapter does not save,',
-        'testHasItem'=>'Void adapter does not save,',
-        'testDeleteItem'=>'Void adapter does not save,',
+        'testBasicUsage' => 'Void adapter does not save,',
+        'testGetItems'   => 'Void adapter does not save,',
+        'testHasItem'    => 'Void adapter does not save,',
+        'testDeleteItem' => 'Void adapter does not save,',
     ];
 
     public function createCachePool()
