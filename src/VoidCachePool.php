@@ -21,7 +21,7 @@ class VoidCachePool extends AbstractCachePool
 {
     protected function fetchObjectFromCache($key)
     {
-        return false;
+        return [false, null];
     }
 
     protected function clearAllObjectsFromCache()
