@@ -11,7 +11,7 @@
         "void",
         "tag"
     ],
-    "homepage":          "https://github.com/php-cache/void-adapter",
+    "homepage": "http://www.php-cache.com",
     "authors":
     [
         {
@@ -28,13 +28,13 @@
     "require":
     {
         "php":                  "^5.5|^7.0",
-        "psr/cache":            "1.0.0",
-        "cache/adapter-common": "^0.1"
+        "psr/cache":            "~1.0",
+        "cache/adapter-common": "^0.2"
     },
     "require-dev":
     {
         "phpunit/phpunit":         "^5.1|^4.0",
-        "cache/integration-tests": "dev-master"
+        "cache/integration-tests": "^0.7"
     },
     "provide":
     {
